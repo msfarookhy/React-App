@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Tabs from "./Tabs";
-import ListContacts from './ListContacts'
 import './App.css';
 
-
+import ListContacts from './ListContacts'
 
 class App extends Component {
 constructor(props){
@@ -46,13 +45,12 @@ constructor(props){
   render() {
     return (
       <div className="App">
-      <Tabs/>
-      
+       <Tabs/>
        <ListContacts 
        contacts={this.state.contacts} 
        onDeleteContact = {this.removeContact}
        />
-       
+      
       </div>
     );
   }

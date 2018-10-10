@@ -22,7 +22,7 @@ constructor (props){
          var navBar = ["Home","Product","About Us","Contact Us"];
          return( 
 
-             <div>
+             <div class="container">
                  <ul className="nav1">
                  {navBar.map((nav)=>{
                      return <li 
